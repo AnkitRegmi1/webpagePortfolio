@@ -1,0 +1,65 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styles */
+.section {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.section h2 {
+    font-size: 24px;
+}
+
+/* Project styles */
+.project {
+    margin: 20px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
